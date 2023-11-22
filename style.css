@@ -1,122 +1,139 @@
-*{
+* {
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Noto Sans', sans-serif;
     display: grid;
-    
 }
-h1{
-text-align: center;
 
+h1 {
+    text-align: center;
+    text-decoration: underline;
 }
-header{
+
+header {
     display: grid;
 }
-nav{
+
+nav {
     display: grid;
-    background-color: black ;
+    background-color: black;
     height: auto;
-    
 }
-ul{
+
+ul {
     display: grid;
-    grid-template-columns: repeat(5,1fr)
+    grid-template-columns: repeat(5, 1fr)
 }
-a{
+
+a {
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
 }
-i{
+
+i {
     color: aliceblue;
 }
-.bg1{
-  
-    background-attachment:fixed;
+
+.bg1 {
+    background-attachment: fixed;
     background-size: cover;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
 }
-.bg1 div{
+
+.bg1 div {
     height: 400px;
-    border: 2px black solid;
-    border-radius: 5px;
     color: black;
     text-align: center;
     font-size: 30px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 26px #949494, -20px -20px 26px #ffffff;
 }
-.bg1 div a{
-    
+
+.bg1 div a {
     color: black;
-    
-    font-size: 30px;
-}
-.bg1 div i{
-    
-    color: black;
-    
     font-size: 30px;
 }
 
-.bg2{
+.bg1 div i {
+    color: black;
+    font-size: 50px;
+}
+
+.bg2 {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    
+    margin-bottom: 10px;
 }
-.bg2 div{
+
+.bg2 div {
     margin-top: 10px;
     height: 400px;
-    border: 2px black solid;
-    border-radius: 5px;
     color: black;
     text-align: center;
     font-size: 30px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 26px #949494, -20px -20px 26px #ffffff;
 }
-.bg2 div a{
-    
+
+.bg2 div a {
     color: black;
-    
     font-size: 30px;
 }
-.bg2 div i{
-    
+
+.bg2 div i {
     color: black;
-    
-    font-size: 30px;
+    font-size: 50px;
 }
+
+#carte {
+    border: solid 1px;
+    height: 400px;
+    width: auto;
+    margin: 10px 10px;
+    border-radius: 50px;
+}
+
 
 /*----------------------------------------------------------------------*/
-footer{
 
+footer {
     display: grid;
     color: aliceblue;
-    background-color: black ;
+    background-color: black;
     height: 100px;
+    box-shadow: 20px 20px 26px #949494, -20px -20px 26px #0000;
 }
 
+
 /*----------------------------------------media----------------------------------*/
+
 @media (max-width:768px) {
-    .bg1{
-        grid-template-columns: repeat(1,1fr);
+    .bg1 {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .bg2{
-        grid-template-columns: repeat(1,1fr);
+    .bg2 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 @media (max-width:320px) {
-    .bg1{
-        grid-template-columns: repeat(1,1fr);
+    .bg1 {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .bg2{
-        grid-template-columns: repeat(1,1fr);
+    .bg2 {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
