@@ -1,20 +1,20 @@
 /*--------------open street map via leaflet--------------------------------------------- */
 //init map
-var map = L.map('carte').setView([40.80000000, 29.43333330], 12);
+let map = L.map('carte').setView([40.8079775,29.3568799], 12);
 
 //load tiles
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-// var cluster = L.markerClusterGroup()
+
 
 //add marker
-// var marker = L.marker([-22.125323, 166.434738])
-//     .addTo(map)
-// marker.bindPopup('<p>BlackCagou Prod.</hp>');
-// // cluster.addLayer(marker)
-// // map.addLayer(cluster)
+let marker = L.marker([40.8079775,29.3568799])
+    .addTo(map)
+marker.bindPopup('<p>gebze technical university</p>')
+.openPopup();
+
 // let xhr = new XMLHttpRequest();
 // const url = "static/js/communes-nc-limites-terrestres-simplifiees.geojson"
 //     // Sur changement de statut
