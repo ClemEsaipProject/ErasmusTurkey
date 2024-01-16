@@ -138,6 +138,34 @@ img {
     margin-top: auto;
 }
 
+
+
+#article{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 18px;
+    margin: 15px 15px;
+    height: auto;
+}
+#article img {
+    max-width: 100%;  
+    height: auto;    
+    display: block;   
+    margin: 0 auto;  
+}
+#afficherPlus{
+    display: block;
+    color: #000;
+    font-size: 15px;
+    height: 15px;
+}
+#afficherMoin{
+    display: none;
+    color: #000;
+    font-size: 15px;
+    height: 15px;
+}
+
 #carte {
     border: solid 1px;
     height: 400px;
