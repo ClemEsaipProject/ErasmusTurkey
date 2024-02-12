@@ -138,6 +138,13 @@ img {
     margin-top: auto;
 }
 
+.aboutme {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
 .article {
     border: 1px solid #ccc;
     display: grid;
