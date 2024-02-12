@@ -134,8 +134,45 @@ i {
 
 img {
     height: auto;
+    /* max-width: 150px; */
+    margin-top: auto;
+}
+
+.school {
+    height: auto;
     max-width: 150px;
     margin-top: auto;
+}
+
+
+/* #gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 20px 0;
+}
+
+#gallery img {
+    width: 35%;
+    height: auto;
+    margin: 1%;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+#gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+#gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .aboutme {
@@ -221,9 +258,12 @@ footer {
         max-width: 100px;
         margin-top: auto;
     }
-    /* .article {
+    #gallery {
         grid-template-columns: repeat(1, 1fr);
-    } */
+    }
+    #gallery img {
+        width: 48%;
+    }
 }
 
 @media (max-width:320px) {
@@ -240,5 +280,11 @@ footer {
         height: auto;
         max-width: 100px;
         margin-top: auto;
+    }
+    #gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #gallery img {
+        width: 100%;
     }
 }
