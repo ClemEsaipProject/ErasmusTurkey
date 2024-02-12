@@ -238,11 +238,12 @@ footer {
     }
     img {
         height: auto;
-        max-width: 100px;
+        max-width: 100%;
         margin-top: auto;
     }
     #gallery {
         grid-template-columns: repeat(1, 1fr);
+        margin-right: 20px;
     }
     #gallery img {
         width: 48%;
@@ -261,11 +262,12 @@ footer {
     }
     img {
         height: auto;
-        max-width: 100px;
+        max-width: 100%;
         margin-top: auto;
     }
     #gallery {
         grid-template-columns: repeat(1, 1fr);
+        margin-right: 20px;
     }
     #gallery img {
         width: 100%;

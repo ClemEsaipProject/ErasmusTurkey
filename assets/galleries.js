@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }, {
             src: "./img/blog/20240210_153319.jpg",
             alt: "Description de l'image 1",
+        }, {
+            src: "./img/galleries/20240206_122356.jpg",
+            alt: "Description de l'image 3",
         },
 
         {
@@ -17,10 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             src: "./img/galleries/20240205_214954.jpg",
             alt: "Description de l'image 3",
         },
-        {
-            src: "./img/galleries/20240206_122356.jpg",
-            alt: "Description de l'image 3",
-        },
+
         {
             src: "./img/galleries/20240206_224229.jpg",
             alt: "Description de l'image 3",
