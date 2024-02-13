@@ -226,7 +226,7 @@ footer {
 
 /*----------------------------------------media----------------------------------*/
 
-@media (max-width:768px) {
+@media (max-width: 768px) and (min-width: 320px) {
     .bg1 {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -244,32 +244,5 @@ footer {
     #gallery {
         grid-template-columns: repeat(1, 1fr);
         margin-right: 20px;
-    }
-    #gallery img {
-        width: 48%;
-    }
-}
-
-@media (max-width:320px) {
-    .bg1 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .bg2 {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    footer {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    img {
-        height: auto;
-        max-width: 100%;
-        margin-top: auto;
-    }
-    #gallery {
-        grid-template-columns: repeat(1, 1fr);
-        margin-right: 20px;
-    }
-    #gallery img {
-        width: 100%;
     }
 }
