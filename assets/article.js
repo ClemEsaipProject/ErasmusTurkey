@@ -3,12 +3,35 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const articles = [{
             title: "Discovering Tuzla:",
-            image: ["./img/blog/20240213_155727.jpg"],
+            images: [{
+                    src: "./img/blog/20240213_155727.jpg",
+                    alt: "Description de l'image 1"
+                },
+                {
+                    src: "./img/blog/20240210_153319.jpg",
+                    alt: "Description de l'image 2"
+                },
+
+            ],
+
             text: `Istanbul's Maritime Gem Welcome to Tuzla, a coastal jewel nestled along the Marmara Sea, an integral part of Istanbul's fascinating urban tapestry in Turkey. Naval Industry and Maritime Economy: Tuzla shines particularly bright thanks to its dynamic naval industry. With its renowned shipyards, the city is the beating heart of boat and ship construction in Turkey. This flourishing activity extends beyond the local economy, significantly contributing to the national maritime economy. A Culture Deeply Connected to the Sea: Life in Tuzla is infused with the soothing influence of the sea. The local culture reflects this intimate connection with traditions rooted in fishing and navigation. Inhabitants celebrate their maritime heritage through festivals, events, and delightful cuisine featuring fresh seafood. History and Modernity Coexist: Tuzla also unveils its past through historical remnants dating back to the Byzantine and Ottoman eras. Captivating archaeological sites bear witness to the region's rich history, creating a striking contrast with the modernity of its shipyards and infrastructure. A Green and Blue Paradise: Despite its bustling industry, Tuzla offers green spaces and parks that invite relaxation. These verdant sanctuaries add a touch of serenity to residents' daily lives, providing peaceful retreats along the shore. In summary, Tuzla captivates with its harmonious blend of maritime tradition, captivating history, and a dynamic present geared toward the future. Explore its lively streets, savor its delicious cuisine, and let yourself be carried away by the enchanting charm of this exceptional maritime city.`
         },
         {
             title: "Transport on Istanbul ",
-            image: "./img/blog/20240218_182307.jpg",
+            images: [{
+                    src: "./img/blog/20240218_182307.jpg",
+                    alt: "Description de l'image 1"
+                },
+                // {
+                //     src: "./img/blog/20240222_150900.jpg",
+                //     alt: "Description de l'image 2"
+                // },
+                // {
+                //     src: "image3.jpg",
+                //     alt: "Description de l'image 3"
+                // }
+            ],
+
             text: `Istanbul, a vast Turkish city divided into 40 districts, provides an integrated public transportation network managed by the rechargeable Istanbulkart. This card facilitates access to buses, the Marmaray (under the Bosphorus tunnel), the metro, and ferries, streamlining payments into a single method.
 
             Buses form the backbone of the network, ensuring essential connectivity. The Marmaray offers a swift crossing under the Bosphorus, while the metro facilitates underground travel. Ferries offer a picturesque experience.
@@ -31,10 +54,16 @@ document.addEventListener("DOMContentLoaded", function() {
         titleElement.textContent = articleInfo.title;
         articleElement.appendChild(titleElement);
 
-        const imgElement = document.createElement("img");
-        imgElement.src = articleInfo.image;
-        imgElement.alt = "Description de l'image"; // Remplacez par la description réelle
-        articleElement.appendChild(imgElement);
+        // const imgElement = document.createElement("img");
+        // imgElement.src = articleInfo.image;
+        // imgElement.alt = "Description de l'image"; // Remplacez par la description réelle
+        // articleElement.appendChild(imgElement);
+        articleInfo.images.forEach(imageInfo => {
+            const imgElement = document.createElement("img");
+            imgElement.src = imageInfo.src;
+            imgElement.alt = imageInfo.alt;
+            articleElement.appendChild(imgElement);
+        });
 
         const textElement = document.createElement("p");
         textElement.textContent = articleInfo.text.substring(0, 150) + "...";
