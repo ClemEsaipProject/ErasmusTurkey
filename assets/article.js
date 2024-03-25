@@ -38,10 +38,14 @@ document.addEventListener("DOMContentLoaded", function() {
             
             The Istanbulkart, rechargeable and usable everywhere, eliminates the need to juggle different tickets. Fares remain affordable, with discounts for students and the elderly. In summary, Istanbul's transportation system, powered by the Istanbulkart, provides a variety of convenient options to explore the city, highlighting its efficiency and accessibility.`,
         },
+
         {
-            title: "Titre de l'article 3",
-            image: "",
-            text: "Texte de l'article 3...",
+            title: "Exploring Turkish Gastronomic Culture",
+            images: [{
+                src: "./img/blog/20240213_153907.jpg",
+                alt: "Description de l'image 1"
+            }, ],
+            text: `During my Erasmus journey in Turkey, one of the most enriching experiences has been exploring the rich gastronomic culture of this vibrant country. Turkish cuisine is a delightful fusion of flavors, influenced by centuries of history and diverse cultural influences. From traditional dishes like kebabs and mezze to indulgent sweets like baklava, every meal tells a story of Turkish tradition and hospitality. The bustling markets, with their colorful array of fresh produce and aromatic spices, offer a sensory adventure for any food enthusiast. Whether cooking with locals or dining at charming cafes, every bite has been a journey of discovery, connecting me more deeply with the culture and people of Turkey. As my Erasmus adventure continues, I look forward to savoring more of Turkey's culinary treasures and creating lasting memories through its delicious cuisine.`,
         },
         // Ajoutez d'autres articles ici
     ];
