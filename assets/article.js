@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
 
         {
-            title: "Exploring Turkish Gastronomic Culture",
+            title: "Exploring Şile: A Weekend Getaway at Kaçkar Kamp",
             images: [{
                 src: "img/blog/20240427_153124.jpg",
                 alt: "Description de l'image 1"
