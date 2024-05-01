@@ -47,6 +47,16 @@ document.addEventListener("DOMContentLoaded", function() {
             }, ],
             text: `During my Erasmus journey in Turkey, one of the most enriching experiences has been exploring the rich gastronomic culture of this vibrant country. Turkish cuisine is a delightful fusion of flavors, influenced by centuries of history and diverse cultural influences. From traditional dishes like kebabs and mezze to indulgent sweets like baklava, every meal tells a story of Turkish tradition and hospitality. The bustling markets, with their colorful array of fresh produce and aromatic spices, offer a sensory adventure for any food enthusiast. Whether cooking with locals or dining at charming cafes, every bite has been a journey of discovery, connecting me more deeply with the culture and people of Turkey. As my Erasmus adventure continues, I look forward to savoring more of Turkey's culinary treasures and creating lasting memories through its delicious cuisine.`,
         },
+
+        {
+            title: "Exploring Turkish Gastronomic Culture",
+            images: [{
+                src: "img/blog/20240427_153124.jpg",
+                alt: "Description de l'image 1"
+            }, ],
+            text: `
+            Last weekend, I ventured to Şile's Kaçkar Kamp for a rejuvenating escape. Amidst lush landscapes, I connected with nature and fellow campers through hikes and communal activities. Indulging in traditional Turkish cuisine, I sampled savory kebabs, delightful desserts, and local spirits, enhancing my gastronomic journey. Guided explorations unveiled Şile's natural wonders, from forest trails to secluded beaches. Capturing captivating moments, from vibrant sunsets to starlit nights, I crafted timeless memories. Overall, my Şile retreat was a fulfilling blend of nature, community, cuisine, and unforgettable experiences.`,
+        },
         // Ajoutez d'autres articles ici
     ];
 
