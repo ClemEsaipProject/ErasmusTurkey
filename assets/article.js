@@ -7,10 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     src: "./img/blog/20240213_155727.jpg",
                     alt: "Description de l'image 1"
                 },
-                {
-                    src: "./img/blog/20240210_153319.jpg",
-                    alt: "Description de l'image 2"
-                },
+
 
             ],
 

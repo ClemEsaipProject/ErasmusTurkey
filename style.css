@@ -45,6 +45,10 @@
         color: aliceblue;
     }
     
+    li {
+        list-style: none;
+    }
+    
     .bg1 {
         background-attachment: fixed;
         background-size: cover;
